@@ -36,7 +36,7 @@ function kte_reiseblog_init()
     'capability_type' => 'post',
     'has_archive' => true, 
     'hierarchical' => false,
-    'supports' => array('title','editor','author','thumbnail', 'comments', 'revisions', 'trackbacks'),
+    'supports' => array('title','editor','author','thumbnail', 'comments', 'trackbacks'),
     'taxonomies' => array('post_tag', 'category', 'kte_reise_orte', 'kte_reise_personen', 'kte_reise_arbeiten'),
   ); 
   register_post_type('kte_reisepost',$args);
