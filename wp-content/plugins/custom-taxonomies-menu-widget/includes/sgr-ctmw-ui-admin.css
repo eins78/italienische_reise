@@ -1,0 +1,48 @@
+/** This file is part of the CUSTOM TAXONOMIES MENU WIDGET Plugin
+*	*************************************************************
+*	Copyright 2010-2011  Ade WALKER  (email : info@studiograsshopper.ch)
+*
+* 	@package custom_taxonomies_menu_widget
+*	@version 1.1.1
+*
+*	Loaded by sgr_ctmw_loadcss_admin_head(), which is hooked to admin_head
+*
+*	CSS for Widget Form
+*/
+
+/* Div containing info at top of widget form */
+.custom-taxonomies-menu-top {}
+
+/* Div containing Configuration options, except checklists */
+.custom-taxonomies-menu-options {
+	border-top:1px #ddd solid;
+	}
+	
+.custom-taxonomies-menu-options h4 {
+	font-size:1.1em;
+	}
+
+/* Div containing all checklists */
+.custom-taxonomies-menu-lists-wrapper {
+	border-top:1px #ddd solid;
+	}
+
+.custom-taxonomies-menu-lists-wrapper h4 {
+	font-size:1.1em;
+	}
+
+/* Inner Div for each taxonomy list */
+.custom-taxonomies-menu-list {
+	border-bottom:1px #ddd solid;
+	margin-bottom:10px;
+	padding-bottom:6px;
+	}
+	
+label.sgr-ctmw-tax-label {
+	font-weight:bold;
+	}
+	
+.custom-taxonomies-menu-list ul.children {
+	padding-left:20px;
+	margin-top:6px;
+	}
